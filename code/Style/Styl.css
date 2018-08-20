@@ -1,0 +1,200 @@
+/* CSS Document */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: #2f4f4f;
+  border: none
+}
+
+#page {
+  display: inline-block;
+  border: 2px solid;
+  width: 900px;
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background-color: #ffffff
+}
+
+#skola {
+  color: #e6e6fa;
+  border: 2px solid;
+  border-color: black;
+  width: 886px;
+  padding: 5px;
+  background-color: #4682b4;
+  text-align: center
+}
+
+#vlevo {
+  border: 2px solid;
+  width: 195px;
+  height: 325px;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  background-color: #e6e6fa
+}
+
+#validator {
+  text-align: center;
+  border: 2px solid;
+  width: 195px;
+  background-color: #e6e6fa;
+  padding: 10px;
+  margin: 5px 0px 0px 0px
+}
+
+#telo {
+  float: left;
+  border: 2px solid;
+  width: 662px;
+  padding: 5px;
+  margin: -489px 0px 0px 224px;
+  background-color: #e6e6fa
+}
+
+#sipka {
+  text-align: right
+}
+
+#print {
+  text-align: right;
+  position: relative;
+  top: -15px;
+  border: 0px
+}
+
+#Int {
+  float: right;
+}
+
+#AM {
+  float: right;
+}
+
+#nVid {
+  float: right;
+}
+
+#Si {
+  float: right;
+}
+
+#Noctua {
+  float: right;
+}
+
+#Zalman {
+  float: right;
+}
+
+#obrazek {
+  margin: -120px 0px 0px 18px
+}
+
+#AMD {
+  text-align: center
+}
+
+#Intel {
+  text-align: center
+}
+
+#nVidia {
+  text-align: center
+}
+
+#SiS {
+  text-align: center
+}
+
+#Northbridge {
+  text-align: center
+}
+
+#Southbridge {
+  text-align: center
+}
+
+#Chipset {
+  text-align: center
+}
+
+#MB {
+  text-align: center
+}
+
+#porovnani {
+  text-align: center
+}
+
+address {
+  clear: both;
+  color: #e6e6fa;
+  border: 2px solid;
+  border-color: black;
+  width: 900px;
+  padding: 5px;
+  background-color: #4682b4;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  text-align: right
+}
+
+h2 {
+  color: #000080;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: right
+}
+
+h3 {
+  color: maroon;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center
+}
+
+h4 {
+  color: #000080;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold
+}
+
+.menu_nadpis {
+  font-size: 13.5px;
+  font-weight: bold;
+  text-align: center
+}
+
+.tucne {
+  font-weight: bold;
+  text-align: center
+}
+
+.tabulka {
+  border: 2px
+}
+
+a {
+  color: #000080;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline overline;
+  color: maroon
+}

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+<head>
+  <!--  ščřžýŠČŘŽÝ -->
+  <meta name="generator" content="PSPad editor, www.pspad.com" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="Style/Styl.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="Style/Print.css" rel="stylesheet" type="text/css" media="print" />
+  <title>Chipsety AMD</title>
+</head>
+
+<body>
+  <div id="page">
+    <!-- //zacatek stranky -->
+
+    <div id="skola">
+      <!-- //horni cast -->
+      Střední průmyslová škola elektrotechniky a informatiky, Ostrava, příspěvková organizace<br />
+    </div>
+    <!-- //konec horni casti -->
+
+    <h1>Chipsety</h1>
+    <h2>výukový modul EPO</h2>
+    <div id="obrazek">
+      <img src="Image/Chipsety.JPG" alt="Chipsety.JPG, 14 kB" title="Chipsety" height="118" width="636" style="border: none;" />
+    </div>
+
+    <div id="print">
+      <!-- //tlacitko tisk -->
+      <a href="javascript:print('')"><img src="Image/Print.PNG" alt="Print.PNG, 1,8kB" title="Print" height="35" width="35" style="border: none;" /></a>
+    </div>
+    <!-- //konec tlacitko tisk -->
+
+    <div id="vlevo">
+      <!-- //leva cast -->
+      <p class="menu_nadpis">OBSAH:</p>
+      <br />
+      <a href="index.html">Úvod</a><br />
+      <a href="stranka_chipset.html">Co je to Chipset</a><br />
+      <a href="stranka_chlazeni.html">Chlazení chipsetu</a><br />
+      <br />
+      <span class="tucne">Nejznámější producenti Chipsetů:</span><br />
+      <a href="stranka_Intel.html">Chipsety Intel</a><br />
+      <a href="stranka_AMD.html">Chipsety AMD</a><br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="stranka_Diagram690G.html">• Podrobnější blokové schéma</a><br />
+      <a href="stranka_nVidia.html">Chipsety nVidia</a><br />
+      <a href="stranka_SiS.html">Chipsety SiS</a><br />
+      <br />
+      <a href="stranka_porovnani.html">Porovnání chipsetů</a><br />
+      <a href="stranka_slovnicek.html">Slovníček pojmů</a><br />
+      <br />
+      <a href="stranka_zadani.html">Zadání DMP</a><br />
+      <a href="dokumentace.rar">Dokumentace</a><br />
+      <a href="stranka_zdroje.html">Použité zdroje</a>
+    </div>
+    <!-- //konec leve casti -->
+    <div id="validator">
+      <!-- //validator -->
+      <p class="menu_nadpis">Stránky jsou validní:</p>
+      <a href="http://validator.w3.org/check?uri=referer">
+    <img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Strict" height="31" width="88" style="border: none;" /></a>
+      <br />
+      <a href="http://jigsaw.w3.org/css-validator/">
+    <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="31" width="88" style="border: none;" /> </a>
+    </div>
+    <!-- //validator konec -->
+
+    <div id="telo">
+      <!-- //Telo stranky -->
+      <h3>1. Čipová sada od AMD s názvem 690G:</h3>
+      <p>
+        Je nutno dodat, že tato čipová sada <strong>vznikla pod rukama vývojářů firmy ATI</strong>, ovšem při odkoupení firmy ATI firmou AMD se pochopitelně take přejmenovala čipová sada do současné podoby.
+      </p>
+      <p>
+        NorthBridge čipsetu AMD 690G nese označení <strong>RS690</strong> a ukrývá v sobě nejen grafické jádro, ale stará se také o obsluhu sběrnice PCI-Express. K dispozici je celkem 24 linek PCIe, čtyři z nich jsou však trvale využity pro spojení se
+        SouthBridge. Ten je označen jako <strong>SB600</strong>, obsahuje čtyři SATA porty, jeden PATA port, celkem deset USB portů, dokáže obsluhovat až šest slotů PCI a samozřejmě také zajišťuje spojení s ostatními zařízeními a periferiemi. Oba čipy
+        jsou vyráběny 80nm technologií, přičemž RS690 zabírá plochu 49 mm2 a SB600 36 mm2.
+      </p><br />
+
+      <div id="AM">
+        <img src="Image/690G.PNG" alt="690G.PNG, 6,5kB" title="690G" height="198" width="220" />
+      </div>
+
+      <ul>
+        <li><a href="#RS690">Severní most</a></li>
+        <li><a href="#SB600">Jižní most</a></li>
+        <li><a href="#schema">Blokové schéma</a></li>
+        <li><a href="#spotreba">Spotřeba a kompatibilita</a></li>
+        <li><a href="#doporuceni">Doporučení pro praxi</a></li>
+      </ul><br /><br />
+
+      <div id="RS690">
+        <h4>Severní most (RS690):</h4>
+        <p class="bold">Procesor:</p>
+        <ul>
+          <li>AMD Sempron, AMD Athlon 64, AMD Athlon 64 X2 Dual-Core, AMD Athlon 64 FX</li>
+          <li>Patice AM2</li>
+          <li>FSB 1GHz HyperTransport</li>
+        </ul>
+        <p class="bold">Typ operační paměti:</p>
+        <ul>
+          <li>Dual DDR2</li>
+          <li>Rychlost paměti 400/533/667/800 MHz</li>
+          <li>Maximální velikost operační paměti 16GB</li>
+        </ul>
+        <p class="bold">Grafické jádro:</p>
+        <ul>
+          <li>ATI Radeon x1250</li>
+          <li>VGA výstup: 1x D-Sub 15-pin</li>
+          <li>DVI výstup: 1x DVI</li>
+          <li>HDMI výstup: 1x HDMI</li>
+        </ul>
+        <p class="bold">Podpora vícemonitorového zobrazení:</p>
+        <ul>
+          <li>Možnost připojit dvě nezávislá zobrazovací zařízení díky dvěma digitálním výstupům</li>
+          <li>Rozlišení, frekvence i zobrazovaná data mohou být naprosto nezávislá pro obě zobrazovací zařízení</li>
+          <li>Podpora zobrazovacích zařízení využívající prokládaný i neprokládaný režim</li>
+          <li>Integrované HD Audio pro zvukový výstup prostřednictvím HDMI</li>
+        </ul>
+        <p class="bold">Sběrnice PCI Express:</p>
+        <ul>
+          <li>Vyhovuje specifikaci PCI Express 1.1a</li>
+          <li>Plnohodnotný slot PCIe x16 pro grafickou kartu</li>
+          <li>Celkem až 4 x1 PCI Express pro možnost dalšího rozšíření</li>
+        </ul>
+        <p class="bold">Vlastnosti 2D grafiky:</p>
+        <ul>
+          <li>Optimalizovaný 128bitový engine schopný zpracovat několik pixelů za jeden takt</li>
+          <li>Podpora rozlišení až 2048x1536 @ 32bpp</li>
+          <li>Herní akcelerace zahrnující podporu Microsoft DirectDraw</li>
+        </ul>
+        <p class="bold">Vlastnosti 3D grafiky:</p>
+        <ul>
+          <li>Plná podpora DirectX 9.0</li>
+          <li>Podpora 3D textur zahrnující i podporu projektivních 3D textur</li>
+          <li>Anti-aliasing využívající technologii multi-sampling s podporou pro 2,4, a 6 vzorků</li>
+          <li>Nová generace renderovacího engine zajišťující vysoký výkon ve 3D</li>
+          <li>Podpora pro "OpenGL format for Indirect Vertices in Vertex Walker"</li>
+        </ul>
+        <p class="bold">TDP:</p>
+        <ul>
+          <li>14 W</li>
+        </ul>
+      </div>
+
+      <div id="SB600">
+        <h4>Jížní most (SB600):</h4>
+        <ul>
+          <li>10 portů USB 2.0</li>
+          <li>Podpora rozhraní SATA s přenosovou rychlostí 3 Gbps</li>
+          <li>4 porty SATA s podporou režimu AHCI, technologie NCQ a uspávacích režimů</li>
+          <li>Řadič ATA 133 podporující i nejrychlejší režim UDMA 6 pro dvě zařízení</li>
+          <li>Vyhovující TPM 1.1 a 1.2</li>
+          <li>Podpora ASF 2.0 pro možnost správy</li>
+          <li>UAA (Universal audio architecture) podpora pro High-Definition Audio</li>
+          <li>PCI v2.3 (celkem až 6 slotů)</li>
+          <li>LPC (Low Pin Count), SPI (New Flash Bus), a technologie SM (System Management) pro správu sběrnic.</li>
+          <li>1 PATA port</li>
+        </ul>
+      </div><br />
+
+      <div id="schema">
+        <p class="bold">Blokové schéma:</p>
+        <div id="AMD">
+          <img src="Image/AMD.JPG" alt="AMD.JPG, 23kB" title="AMD" height="335" width="500" style="border: none;" />
+        </div>
+      </div><br />
+
+      <div id="spotreba">
+        <p class="bold">Spotřeba a kompatibilita:</p>
+        Spotřeba celého čipsetu by neměla přesáhnout 14 W (8 W TDP pro RS690 a 5,8 W TDP pro SB600), čímž se řadí mezi <strong>velmi úsporné čipsety</strong> (s přihlédnutím k rychlé integrované grafice). Čipová sada splňuje také standard ACPI 3.0, podporuje
+        technologie AMD On-Now, ASF 2.0, a umožňuje kompletní HW monitoring prostřednictvím BIOSu. AMD 690G je plně připraven pro Windows Vista a je i primárně navržen pro tento systém. Někoho může zarazit, že není podporován DX10, ten je však nutný výhradně
+        pro hraní her, přičemž pro bezproblémové fungování Vista Aero stačí i DX9.
+      </div><br /><br />
+
+      <div id="doporuceni">
+        <p class="bold">Závěrem (doporučení pro praxi):</p>
+        Tento čipset ma ve své třídě konkurenci pouze v <strong>NVIDIA nForce 630a</strong> také s integrovanou GeForce 7050. Základní desky s AMD 690G se nejlépe hodí do jakéhokoliv HTPC či nenáročného domácího PC či také kanceláří. Využijí ho také příznivci
+        LINUXU díky integrované grafické karty. Ideálním základem mohou být také pro někoho, kdo využije podporu více monitorů (ku příkladu do školních učeben). Pozitivními fakty jsou slušná grafická karta s podporou technologie AVIVO, solidní možnosti
+        rozšíření díky slotům PCI Express a 3Gbps SATA portům s podporou AHCI a NCQ a především pak i velmi příjemná cena, kterou desky s čipsety AMD 690 disponují.
+      </div>
+
+      <div id="sipka">
+        <!-- //vratna spika -->
+        <a href="#"><img src="Image/Sipka.PNG" alt="Sipka.PNG, 870B" title="Sipka" height="21" width="22" style="border: none;" /></a>
+      </div>
+      <!-- //konec vratna sipka -->
+
+    </div>
+    <!-- //konec tela stranky -->
+
+  </div>
+  <!-- //konec stranky -->
+
+  <address><!-- //adresa autora dokumentu -->
+  <a href="mailto:Hvizdak.R@seznam.cz" class="e-mail" title="e-mail" style="color: white">Roman Hvizdák</a> - EP4B, 2008
+  </address>
+  <!-- //konec adresy autora dokumentu -->
+
+</body>
+
+</html>
